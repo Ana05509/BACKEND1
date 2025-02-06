@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'gestion',
 
 ]
@@ -78,7 +79,7 @@ WSGI_APPLICATION = 'sistema_venta.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ventasOnline',
+        'NAME': 'VentasOnlines',
         'USER': 'root',
         'PASSWORD': '088266619Da.di',
         'HOST': 'localhost',
